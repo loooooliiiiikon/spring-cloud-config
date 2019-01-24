@@ -7,6 +7,11 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
+#服务监控
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 
   #服务追踪
   zipkin:
